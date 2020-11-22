@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "angular-form"
+  "defaultProject": "angular-form",
+  "cli": {
+    "analytics": "07e37452-b829-4d48-b9ed-14160fe8ca6a"
+  }
 }

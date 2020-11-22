@@ -1,0 +1,30 @@
+<div class="inputs">
+    <div class="forms">
+
+        <form class="info" [formGroup]="myForm" (ngSubmit)="onSubmit()">
+            <div class="giris">
+                <input formControlName="id" type="number" placeholder="ID">
+                <input class="form-name" formControlName="name" type="text" placeholder="Name" minlength="3" >
+                <input formControlName="lastname" type="text" placeholder="Surname"  minlength="3">
+                <input formControlName="phone" type="number" placeholder="Phone Number"  >
+                <select formControlName="country">
+                    <option value="" selected></option>
+                    <option value="CANADA">Canada</option>
+                    <option value="FRANCE">France</option>
+                    <option value="TURKEY">Turkey</option>
+                    <option value="USA">USA</option>
+                </select>
+                <select formControlName="job">
+                    <option value="" selected></option>
+                    <option value="DOCTOR">Doctor</option>
+                    <option value="ENGINEER">Engineer</option>
+                    <option value="LAWYER">Lawyer</option>
+                    <option value="TEACHER">Teacher</option>
+                    <option value="RETIRED">Retired</option>
+                </select>
+                <button [disabled]="!myForm.valid" type="submit">LOGIN</button>
+            </div>
+        </form>
+
+    </div>
+</div>
