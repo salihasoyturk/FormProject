@@ -34,9 +34,10 @@ input{
     font-weight: normal;
     margin-bottom: 15px;
     outline: none;
+    text-transform: uppercasew;
     color: rgb(0, 0, 0);
-     
-} 
+
+}
 select{
     width: 300px;
     height: 50px;

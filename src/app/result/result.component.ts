@@ -1,3 +1,4 @@
+import { CssSelector, NONE_TYPE } from '@angular/compiler';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { IForm, SharedService } from '../shared.service';
 
@@ -11,20 +12,20 @@ import { IForm, SharedService } from '../shared.service';
 export class ResultComponent implements OnInit {
   data: any;
   modalOpenState = false;
-  
+
 
 
   @Output() userInfo: EventEmitter<any> = new EventEmitter<any>();
- 
+
 
   constructor(public sharedService: SharedService) { }
 
   ngOnInit(): void {
-    
+
     this.data = this.sharedService.dataArray;
     console.log(this.sharedService.dataArray);
 
-    
+
   }
 
   deleteRow(item: any): void {
@@ -38,7 +39,7 @@ export class ResultComponent implements OnInit {
     this.userInfo.emit(item);
 
   }
-  
+
 
 
 }
