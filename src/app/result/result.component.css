@@ -50,113 +50,11 @@ td {
 }
 
 button {
-  width: 25px;
-  height: 22px;
-  border-spacing: 4px;
+  width: 35px;
+  height: 35px;
   cursor: pointer;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px grey;
 }
-
-/* ------------------------------------------------------------------------ */
-
-/* .outputs{
-    display: flex;
-    flex-direction: column;
-    text-transform: uppercase;
-     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-
-    border-collapse: collapse;
-     width: 100%;
-
-} */
-
-/* .outputs{
-    width: 500px;
-    height: 500px;
-
-
-    background-color: white;
-    border-style:  solid;
-    border-color: white;
-    padding: 60px 40px 60px 40px;
-    border-radius: 7px;
-    box-shadow: 2px 3px 21px #8f8d8d;
-} */
-
-/* th { */
-/* padding-top: 12px; */
-/* padding-bottom: 12px; */
-
-/* text-align: center;
-    font-size: 15px;
-    border-style: solid;
-    color: #ffffff;
-    min-width: 60px !important;
-    min-height: 40px !important;
-    border-color: #1369da;
-    background-color: #1369da;
-    border-radius: 4px;
-    letter-spacing: 1px; */
-/* }  */
-
-/*
-.button{
-
-    height: 50px;
-    border-radius: 4px;
-    border-color: #1369da;
-    border-style: solid;
-    width: 100px;
-    color: white;
-    margin-left: 200px;
-    margin-top: 20px;
-    font-size: 15px;
-    cursor: pointer;
-} */
-
-/*
- td{
-   text-align: center;
-   width: 50px !important;
-   height: 40px !important;
-   border-style: solid;
-   border-radius: 4px;
-   border-color: rgb(202, 202, 202);
-   color: #1369da;
-} */
-/* .header{
-  display: flex;
-   align-items: center;
-    text-align: center;
-    font-size: 15px;
-
-    color: #554f4f;
-    border-color: #1369da;
-    border-radius: 4px;
-}
-.buttons{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-   width: 100px !important;
-   height: 40px !important;
-   border-style: solid;
-   border-radius: 4px;
-   border-color: rgb(202, 202, 202);
-   color: #1369da;
-}  */
-
-/* .row{
-    display: flex;
-    flex-direction: row;
-
-}
-.buttons{
-    display: flex;
-    flex-direction: row;
-
-}
-td{
-    border-color: rgb(202, 202, 202);
-    border-style: solid;
-    border-radius: 4px;
-} */

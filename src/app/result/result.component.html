@@ -17,8 +17,6 @@
         *ngFor="let item of data; let i = index"
         style="flex-direction: column"
       >
-        <!-- <ng-container *ngFor="let element of item  | keyvalue let i = index "> -->
-
         <td>{{ item.id }}</td>
         <td [title]="item.name">{{ item.name }}</td>
         <td [title]="item.lastname">{{ item.lastname }}</td>
@@ -26,13 +24,11 @@
         <td [title]="item.country">{{ item.country }}</td>
         <td [title]="item.job">{{ item.job }}</td>
 
-        <!-- </ng-container> -->
-
         <button (click)="deleteRow(i)" title="Delete">
           <svg
-            height="15px"
+            height="17px"
             viewBox="-57 0 512 512"
-            width="15px"
+            width="20px"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -57,8 +53,9 @@
             viewBox="0 0 512 512"
             style="
               enable-background: new 0 0 512 512;
-              width: 15px;
-              height: 15px;
+              width: 20px;
+              height: 17px;
+              
             "
             xml:space="preserve"
           >
@@ -97,18 +94,3 @@
     </tbody>
   </table>
 </div>
-
-<!-- -------------------------------------- -->
-
-<!--
-<table>
-    <tr>
-        <th>asdas</th>
-        <th>asdas</th>
-        <th>2423</th>
-        <th>adasd</th>
-    </tr>
-    <tr *ngFor="let item of data">
-        <td>item.value</td>
-    </tr>
-</table> -->
